@@ -62,230 +62,230 @@ body {
   padding: 0 15px;
 }
 
- /* SECTION #1
+/* SECTION #1
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
-    .top-banner {
-      color: var(--text_light);
-    }
-    
-    .heading {
-      font-weight: bold;
-      font-size: 4rem;
-      letter-spacing: 0.02em;
-      padding: 0 0 30px 0;
-    }
-    
-    .top-banner form {
-      position: relative;
-      display: flex;
-      align-items: center;
-    }
-    
-    .top-banner form input {
-      font-size: 2rem;
-      height: 40px;
-      padding: 5px 5px 10px;
-      border-bottom: 1px solid;
-    }
-    
-    .top-banner form input::placeholder {
-      color: currentColor;
-    }
-    
-    .top-banner form button {
-      font-size: 1rem;
-      font-weight: bold;
-      letter-spacing: 0.1em;
-      padding: 15px 20px;
-      margin-left: 15px;
-      border-radius: 5px;
-      background: var(--green);
-      transition: background 0.3s ease-in-out;
-    }
+.top-banner {
+  color: var(--text_light);
+}
 
-    .top-banner form button:hover {
-      background: var(--darkgreen);
-    }
-    
-    .top-banner form .msg {
-      position: absolute;
-      bottom: -40px;
-      left: 0;
-      max-width: 450px;
-      min-height: 40px;
-    }
+.heading {
+  font-weight: bold;
+  font-size: 4rem;
+  letter-spacing: 0.02em;
+  padding: 0 0 30px 0;
+}
 
-     /* SECTION #2
+.top-banner form {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.top-banner form input {
+  font-size: 2rem;
+  height: 40px;
+  padding: 5px 5px 10px;
+  border-bottom: 1px solid;
+}
+
+.top-banner form input::placeholder {
+  color: currentColor;
+}
+
+.top-banner form button {
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  padding: 15px 20px;
+  margin-left: 15px;
+  border-radius: 5px;
+  background: var(--green);
+  transition: background 0.3s ease-in-out;
+}
+
+.top-banner form button:hover {
+  background: var(--darkgreen);
+}
+
+.top-banner form .msg {
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  max-width: 450px;
+  min-height: 40px;
+}
+
+/* SECTION #2
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  .ajax-section {
-    margin: 70px 0 20px;
-  }
-  
-  .ajax-section .cities {
-    display: grid;
-    grid-gap: 32px 20px;
-    grid-template-columns: repeat(4, 1fr);
-  }
-  
-  .ajax-section .city {
-    position: relative;
-    padding: 40px 10%;
-    border-radius: 20px;
-    background: var(--text_light);
-    color: var(--text_med);
-  }
+.ajax-section {
+  margin: 70px 0 20px;
+}
 
-  .ajax-section .city::after {
-    content: '';
-    width: 90%;
-    height: 50px;
-    position: absolute;
-    bottom: -12px;
-    left: 5%;
-    z-index: -1;
-    opacity: 0.3;
-    border-radius: 20px;
-    background: var(--text_light);
-  }
-  
-  .ajax-section figcaption {
-    margin-top: 10px;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-  }
-  
-  .ajax-section .city-temp {
-    font-size: 5rem;
-    font-weight: bold;
-    margin-top: 10px;
-    color: var(--text_dark);
-  }
+.ajax-section .cities {
+  display: grid;
+  grid-gap: 32px 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
 
-  .ajax-section .city sup {
-    font-size: 0.5em;
-  }
-  
-  .ajax-section .city-name sup {
-    padding: 0.2em 0.6em;
-    border-radius: 30px;
-    color: var(--text_light);
-    background: var(--orange);
-  }
-  
-  .ajax-section .city-icon {
-    margin-top: 10px;
-    width: 100px;
-    height: 100px;
-  }
+.ajax-section .city {
+  position: relative;
+  padding: 40px 10%;
+  border-radius: 20px;
+  background: var(--text_light);
+  color: var(--text_med);
+}
 
-    /* FOOTER
+.ajax-section .city::after {
+  content: '';
+  width: 90%;
+  height: 50px;
+  position: absolute;
+  bottom: -12px;
+  left: 5%;
+  z-index: -1;
+  opacity: 0.3;
+  border-radius: 20px;
+  background: var(--text_light);
+}
+
+.ajax-section figcaption {
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.ajax-section .city-temp {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-top: 10px;
+  color: var(--text_dark);
+}
+
+.ajax-section .city sup {
+  font-size: 0.5em;
+}
+
+.ajax-section .city-name sup {
+  padding: 0.2em 0.6em;
+  border-radius: 30px;
+  color: var(--text_light);
+  background: var(--orange);
+}
+
+.ajax-section .city-icon {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+/* FOOTER
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
-    .page-footer {
-      text-align: right;
-      font-size: 1rem;
-      color: var(--text_light);
-      margin-top: 40px;
-    }
-    
-    .page-footer span {
-      color: var(--green);
-    }
-    
-    /* REVIEW & RATING
+.page-footer {
+  text-align: right;
+  font-size: 1rem;
+  color: var(--text_light);
+  margin-top: 40px;
+}
+
+.page-footer span {
+  color: var(--green);
+}
+
+/* REVIEW & RATING
     _____________________________________________________*/
-    
-    @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
-    
-    html,
-    body {
-      height: 100%
-    }
-    
-    h4 {
-      color: #ffffff
-    }
-    
-    body {
-      display: grid;
-      place-items: bottom bottom;
-      font-family: 'Manrope', sans-serif;
-      text-decoration-color: #ffffff;
-    }
-    
-    .cross {
-      padding: 10px;
-      color: #ff8c00;
-      cursor: pointer;
-      font-size: 23px;
-    }
-    
-    .cross i {
-      margin-top: -5px;
-      cursor: pointer;
-    }
-    
-    .comment-box {
-      padding: 2px;
-    }
-    
-    .comment-area textarea {
-      width: 100px;
-      height: 40px;
-      resize: none;
-      border: 1px solid rgb(5, 5, 5)
-    }
-    
-    .form-control:focus {
-      color: #495057;
-      background-color: #fff;
-      border-color: #ffffff;
-      outline: 0;
-      box-shadow: 0 0 0 1px rgb(5, 5, 5)
-    }
-    
-    .send {
-      color: #fff;
-      background-color: #ff8c00;
-      border-color: #ff8c00;
-      margin: 0px 0px 0px 2px;
-      padding: 2px 3px;
-      font: 12px Arial;
-    }
-    
-    .send:hover {
-      color: #fff;
-      background-color: #ff8c00;
-      border-color: #ff8c00;
-    }
-    
-    .rating {
-      display: inline-flex;
-      margin-top: -10px;
-      flex-direction: row-reverse;
-    }
-    
-    .rating>input {
-      display: none
-    }
-    
-    .rating>label {
-      position: relative;
-      width: 28px;
-      font-size: 35px;
-      color: #ff8c00;
-      cursor: pointer;
-    }
-    
-    .rating>label::before {
-      content: "\2605";
-      position: absolute;
-      opacity: 0
-    }
-    
-    .rating>input:checked~label:before {
-      opacity: 1
-    }
-    
-    .rating:hover>input:checked~label:before {
-      opacity: 0.4
-    }
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+
+html,
+body {
+  height: 100%
+}
+
+h4 {
+  color: #ffffff
+}
+
+body {
+  display: grid;
+  place-items: bottom bottom;
+  font-family: 'Manrope', sans-serif;
+  text-decoration-color: #ffffff;
+}
+
+.cross {
+  padding: 10px;
+  color: #ff8c00;
+  cursor: pointer;
+  font-size: 23px;
+}
+
+.cross i {
+  margin-top: -5px;
+  cursor: pointer;
+}
+
+.comment-box {
+  padding: 2px;
+}
+
+.comment-area textarea {
+  width: 100px;
+  height: 40px;
+  resize: none;
+  border: 1px solid rgb(5, 5, 5)
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #ffffff;
+  outline: 0;
+  box-shadow: 0 0 0 1px rgb(5, 5, 5)
+}
+
+.send {
+  color: #fff;
+  background-color: #ff8c00;
+  border-color: #ff8c00;
+  margin: 0px 0px 0px 2px;
+  padding: 2px 3px;
+  font: 12px Arial;
+}
+
+.send:hover {
+  color: #fff;
+  background-color: #ff8c00;
+  border-color: #ff8c00;
+}
+
+.rating {
+  display: inline-flex;
+  margin-top: -10px;
+  flex-direction: row-reverse;
+}
+
+.rating>input {
+  display: none
+}
+
+.rating>label {
+  position: relative;
+  width: 28px;
+  font-size: 35px;
+  color: #ff8c00;
+  cursor: pointer;
+}
+
+.rating>label::before {
+  content: "\2605";
+  position: absolute;
+  opacity: 0
+}
+
+.rating>input:checked~label:before {
+  opacity: 1
+}
+
+.rating:hover>input:checked~label:before {
+  opacity: 0.4
+}
