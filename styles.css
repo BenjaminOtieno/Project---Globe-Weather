@@ -1,5 +1,4 @@
-/* RESET STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* STYLES */
 :root {
   --bg_main: url("images/sun-g39b4dcf99_1920.jpg");
   --text_light: #fff;
@@ -62,8 +61,7 @@ body {
   padding: 0 15px;
 }
 
-/* SECTION #1
-    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* SECTION I*/
 .top-banner {
   color: var(--text_light);
 }
@@ -115,8 +113,7 @@ body {
   min-height: 40px;
 }
 
-/* SECTION #2
-    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* SECTION II*/
 .ajax-section {
   margin: 70px 0 20px;
 }
@@ -178,8 +175,7 @@ body {
   height: 100px;
 }
 
-/* FOOTER
-    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* FOOTER */
 .page-footer {
   text-align: right;
   font-size: 1rem;
@@ -191,9 +187,7 @@ body {
   color: var(--green);
 }
 
-/* REVIEW & RATING
-    _____________________________________________________*/
-
+/* REVIEW & RATING */
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
 
 html,
