@@ -72,7 +72,7 @@ form.addEventListener("submit", event => {
       msg.textContent = "Please input a valid city!";
     });
 
-    msg.textContent = "";
-    form.reset();
-    input.focus();
-  });
+  msg.textContent = "";
+  form.reset();
+  input.focus();
+});
